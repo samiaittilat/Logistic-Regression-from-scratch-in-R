@@ -39,7 +39,7 @@ Now that you have everything settled, import your dataset and make sure that you
 You may want to split your dataset into a training and a test dataset and start using Rgrad functions.
 **Note that there is no need to standardize your dataset as the package takes care of this step.**
 
-#### - `**Fit function**` 
+#### - **`Fit function`** 
 
 The package comes with a fit function that trains your model via gradient descent and outputs the model weights. This function comes with a bunch of parameters: 
 
