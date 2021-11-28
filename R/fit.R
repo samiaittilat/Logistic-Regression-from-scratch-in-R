@@ -63,7 +63,7 @@ fit<-function(formule, data, mode="mini_batch",batch_size=32,alpha=0.01,max_iter
   if (tol <= 0) {
     stop("Tolerance must be greater than 0 (tol)")
   }
-  if (mode=='online' || mode=='mini-batch' ){
+  if ((mode=='online' || mode=='mini-batch') & (parallel==TRUE)){
     stop("Cannot parallelize online and mini-batch gradient descent")
   }
   #Standardization of the features and storing the mean and standard deviation of each feature
