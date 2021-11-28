@@ -45,7 +45,7 @@ You can also use summary (fit_grad object) function  to display all the outputs 
 
 The function provides a plot that shows the decreasing of the loss function with respect to each epoch. 
 
-Prediction function 
+# Prediction function 
 Congratulations ! Your model is trained and it's time to make predictions. The predict function is quite simple and requires only 3 parameters. 
 You need to specify the fit output object, the test set and the type of predictions. The type parameter is set to "class" by default which means that the function returns the categories or the classes of predictions. In case you want to display probabilities of belonging to a category, then you would go with the type "posterior"
 Again, you don't need to standardize or scale your test set. Just make sure that your test set is a dataframe.
