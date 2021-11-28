@@ -26,5 +26,6 @@ summary.Reg.Log <- function(object,...){
   #affichage du nombre d'iterations
   cat("Le nombre d'iterations : ",object$nb_iter,"\n")
   # affichage de la fonction cout :
-  cat("La fonction cout : ",object$cost_function,"\n")
+  cat("5 premières valeurs de la fonction cout : ",head(object$cost_function,5),"\n")
+  cat("5 dernières valeurs de la fonction cout : ",tail(object$cost_function,5),"\n")
 }
