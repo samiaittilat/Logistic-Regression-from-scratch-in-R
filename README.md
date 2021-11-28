@@ -20,7 +20,7 @@ install.packages("devtools")
 
 library(devtools)
 ```
-#### -Install RegLog package from Github
+#### -Install Rgrad package from Github
 #
 
 ```sh
