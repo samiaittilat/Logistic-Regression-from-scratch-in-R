@@ -1,4 +1,5 @@
 # Logistic Regression from Scratch in R
+
 ### _Batch / Mini-Batch/ Stochastic Gradient Descent_
 
 The aim of the Rgrad package is to implement a binary logistic regression model from scratch using different variants of gradient descent ( batch, mini-batch, stochastic). With the help of this package, you can fit a logistic regression model to your dataset, make predictions and evaluate the performance of your model. It is also possible to apply different regularizations( Ridge L2, Lasso L1) for better predictions.
@@ -11,43 +12,24 @@ In this demonstration, we'll walk you through a few steps to help you use the Rg
 
 ## Package Installation
 
-install devtools library if needed
+##### - install devtools library if needed
+#
+
 ```sh
 install.packages("devtools") 
+
 library(devtools)
 ```
-Install RegLog package from Github
+##### -Install RegLog package from Github
+#
 
 ```sh
 devtools::install_github("mettre le lien du dossier/Rgrad")
 ```
 
-## Development
-
-Want to contribute? Great!
-
-Dillinger uses Gulp + Webpack for fast developing.
-Make a change in your file and instantaneously see your updates!
-
-Open your favorite Terminal and run these commands.
-
-First Tab:
+##### -Load the RegLog package
+#
 
 ```sh
-node app
+library(Reglog)
 ```
-
-Second Tab:
-
-```sh
-gulp watch
-```
-
-(optional) Third:
-
-```sh
-karma test
-```
-
-
-## Features
