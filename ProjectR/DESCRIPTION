@@ -1,0 +1,19 @@
+Package: RGRAD
+Title: Project R SISE 2021 2022 
+Version: 1.0.0.0
+Authors@R: 
+  c(
+    person("Sami", "Ait Tilat", , "sami.Ait-Tilat@univ-lyon2.fr", role = c("aut", "cre")),
+    person("Afaf", "Ben Haj", , "afaf.ben-haj@univ-lyon2.fr", role = c("aut", "ctb")),
+    person("Marie", "Vachet", , "marie.vachet@univ-lyon2.fr", role = c("aut", "ctb")))
+Description: Binary logistic regression with descent algorithm stochastic gradient.
+Depends: 
+    R(>= 3.4.3)
+License: GPL-2
+Imports: modelr,
+    parallel,
+    stats,
+    dplyr
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
