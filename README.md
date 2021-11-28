@@ -50,17 +50,17 @@ The package comes with a fit function that trains your model via gradient descen
 You can access the function detailed description by typing this line of code : **_`help(fit)`_**
 Now that you have a clear idea about _fit function_ parameters options, try to instantiate your model "md" using this example :
 
+![fit_pic](https://user-images.githubusercontent.com/95022075/143778952-64f27317-92de-45ee-b168-5f55b3e1bbe3.PNG)
 
-Here's an example on how you can use the fit function ( Stochastic Gradient Descent)
- 
-The fit_grad function returns an object called "md" in this example that contains these values:
+The fit function returns an object called "md" in this example that contains these values:
+
 - _`md$coeffs`_ : Coefficients ( model weights)
 - `md$nb_iter`: Number of epochs 
 - `md$cost`: cost function values at each epoch
 - `md$mean_col`: mean value of each feature
 - `md$sd`: Standard deviation value of each feature
 
-You can also use _`summary (fit)`_ function  to display all the outputs listed above
+You can also use **_`summary (fit)`_** function  to display all the outputs listed above
 
 The function provides a plot that shows the decreasing of the loss function with respect to each epoch. 
 
@@ -71,5 +71,5 @@ The function provides a plot that shows the decreasing of the loss function with
 
 Congratulations ! Your model is trained and it's time to make predictions. 
 The predict function is quite simple and requires only 3 parameters. 
-You need to specify the _`fit output object`_, _`the test set`_ and the _`type of predictions`_. The type parameter is set to _"class"_ by default which means that the function returns the categories or the classes of predictions. In case you want to display probabilities of belonging to a category, then you would go with the type _"posterior"_
-Again, you don't need to standardize or scale your test set. Just make sure that your test set is a dataframe.
+You need to specify the _`fit output object`_, _`the test set`_ and the _`type of predictions`_. The type parameter is set to **_"class"_** by default which means that the function returns the categories or the classes of predictions. In case you want to display probabilities of belonging to a category, then you would go with the type **_"posterior"_**
+**Again, you don't need to standardize or scale your test set. Just make sure that your test set is a dataframe**.
