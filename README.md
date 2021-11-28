@@ -49,10 +49,7 @@ The package comes with a fit function that trains your model via gradient descen
 
 You can access the function detailed description by typing this line of code : **_`help(fit)`_**
 Now that you have a clear idea about _fit function_ parameters options, try to instantiate your model "md" using this example :
-<p align="center">
-  <img src="‪C:\Users\Sami\OneDrive\Bureau\loss function.PNG" width="350" title="hover text">
-  <img src="C:\Users\Sami\OneDrive\Bureau\loss function.PNG" width="350" alt="accessibility text">
-</p>
+
 
 Here's an example on how you can use the fit function ( Stochastic Gradient Descent)
  
@@ -66,6 +63,9 @@ The fit_grad function returns an object called "md" in this example that contain
 You can also use _`summary (fit)`_ function  to display all the outputs listed above
 
 The function provides a plot that shows the decreasing of the loss function with respect to each epoch. 
+
+![Loss function Reg](https://user-images.githubusercontent.com/95022075/143778841-24807457-6e20-41e0-ac1f-7a50a2369816.PNG)
+
 
 #### - **`Predict function`** 
 
