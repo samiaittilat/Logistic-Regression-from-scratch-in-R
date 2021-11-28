@@ -12,7 +12,7 @@ In this demonstration, we'll walk you through a few steps to help you use the Rg
 
 ## Package Installation
 
-##### - install devtools library if needed
+#### - install devtools library if needed
 #
 
 ```sh
@@ -20,14 +20,14 @@ install.packages("devtools")
 
 library(devtools)
 ```
-##### -Install RegLog package from Github
+#### -Install RegLog package from Github
 #
 
 ```sh
 devtools::install_github("mettre le lien du dossier/Rgrad")
 ```
 
-##### -Load the RegLog package
+#### -Load the RegLog package
 #
 
 ```sh
