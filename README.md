@@ -23,7 +23,7 @@ library(devtools)
 #
 
 ```sh
-devtools::install_github("samiaittilat/Logistic-Regression-from-scratch-in-R"")
+devtools::install_github('samiaittilat/Logistic-Regression-from-scratch-in-R')
 ```
 
 ###### -**`Load the Rgrad package`**
