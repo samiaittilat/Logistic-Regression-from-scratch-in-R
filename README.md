@@ -31,5 +31,5 @@ devtools::install_github("mettre le lien du dossier/Rgrad")
 #
 
 ```sh
-library(Reglog)
+library(Rgrad)
 ```
