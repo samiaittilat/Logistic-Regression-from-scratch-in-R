@@ -3,7 +3,7 @@
 
  The aim of the Rgrad package is to implement a binary logistic regression model from scratch using different variants of gradient descent ( batch, mini-batch, stochastic). With the help of this package, you can fit a logistic regression model to your dataset, make predictions and evaluate the performance of your model. It is also possible to apply different regularizations( Ridge L2, Lasso L1) for better predictions.
 
-To process large datasets, the batch and mini-batch gradient descents are computed using parallel processing. 
+To process large datasets, the batch gradient descents is computed using parallel processing. 
 The dataset you feed to the model is partionned into smaller data sets over CPU cores and processed simultaneously. The results are then communicated between the threads. 
 
 In this demonstration, we'll walk you through a few steps to help you use the Rgrad package efficiently.
@@ -39,7 +39,7 @@ Now that you have everything settled, import your dataset and make sure that you
 You may want to split your dataset into a training and a test dataset and start using Rgrad functions.
 **Note that there is no need to standardize your dataset as the package takes care of this step.**
 
-#### - **`Fit function` **
+#### - `**Fit function**` 
 
 The package comes with a fit function that trains your model via gradient descent and outputs the model weights. This function comes with a bunch of parameters: 
 
