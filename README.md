@@ -49,6 +49,10 @@ The package comes with a fit function that trains your model via gradient descen
 
 You can access the function detailed description by typing this line of code : **_`help(fit)`_**
 Now that you have a clear idea about _fit function_ parameters options, try to instantiate your model "md" using this example :
+<p align="center">
+  <img src="‪C:\Users\Sami\OneDrive\Bureau\loss function.PNG" width="350" title="hover text">
+  <img src="C:\Users\Sami\OneDrive\Bureau\loss function.PNG" width="350" alt="accessibility text">
+</p>
 
 Here's an example on how you can use the fit function ( Stochastic Gradient Descent)
  
