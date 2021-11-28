@@ -13,7 +13,6 @@
 #' @examples
 
 predict_summary<-function(pred,yreel){
-  print(pred$pred_final)
   xTab=table(pred$pred_final, yreel)
   clss <- as.character(sort(unique(pred$pred_final)))
   r <- matrix(NA, ncol = 7, nrow = 1,
