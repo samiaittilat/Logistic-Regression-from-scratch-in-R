@@ -1,0 +1,5 @@
+usethis::use_build_ignore("Demo.csv")
+usethis::use_build_ignore("ignore.R")
+usethis::use_package("dplyr")
+usethis::use_package("modelr")
+usethis::use_package("parallel")
